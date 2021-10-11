@@ -493,6 +493,16 @@ img{
     max-width: 576px;
     width: 100%;
   }
+   .premiera-title{
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .vydi p{
+    margin-bottom: 30px;
+  }
+  .asters-row{
+  margin-bottom: 0px;
+}
 }
 
 
