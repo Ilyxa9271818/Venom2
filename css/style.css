@@ -32,8 +32,10 @@ img{
   padding-top: 40px;
 }
 .primer-fontsize p{
-  margin-bottom: 35px; 
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 12px;
 }
 .nav-menu {
   margin: 0;
@@ -87,6 +89,9 @@ img{
   color: #8D0019;
   background-color: #fff;
 }
+.premiera-title{
+
+}
 .button-link {
   color: #fff;
 }
@@ -117,6 +122,13 @@ img{
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 20px;
   margin-top: 0;
+}
+.treiler-text{
+
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 21px;
 }
 .content-text {
   font-size: 16px;
@@ -177,8 +189,8 @@ img{
   margin-bottom: 50px;
   max-width: 9050px;
   width: 100%;
-  height: 590px;
-  background: url("../img/content-treiler.jpg") no-repeat center / contain;
+  height: 690px;
+  background: url("../img/treiler-bg.png") no-repeat center / contain;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -218,6 +230,11 @@ img{
 .menu-close{
   display: none;
 }
+@media (max-width: 1700px){
+  .treiler-bg{
+    height: 490px;
+  }
+}
 @media(max-width: 1024px){
   .col {
   flex-basis: 45%;
@@ -246,8 +263,8 @@ img{
     font-size: 12px;
   }
   .primer-fontsize p{
-    margin-bottom: 25px;
-    font-size: 19px
+    margin-bottom: 12px;
+    font-size: 16px
   }
 @media(max-width: 992px){
    .vydi p{
@@ -263,7 +280,7 @@ img{
   }
   .primer-fontsize p{
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   }
   @media(max-width: 830px){
@@ -278,6 +295,16 @@ img{
   .venom{
     top: 0%;
   }
+  .premiera-title{
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .vydi p{
+    margin-bottom: 30px;
+  }
+  .asters-row{
+  margin-bottom: 0px;
+}
   .poster{
     width: 300px;
     /*height: 490px;*/
